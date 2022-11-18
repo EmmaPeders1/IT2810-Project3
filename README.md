@@ -79,7 +79,7 @@ On the bottom left is a heart icon. The game is favorited when the user clicks i
 
 The user can navigate to other pages by use of the sidebar. When viewing the sidebar, the user can click on one of the tabs which will redirect them to the desired page. 
 
-To switch theme of the page, the user can click on the white moon icon on the upper right corner located on the header. This icon will toggle between light and dark mode, and swtiches to a gray sun on dark mode. The group followed a [guide](https://dev.to/skinnypetethegiraffe/lightdark-mode-toggle-using-mui-and-recoil-ts-3bj0), and did some modifications to make it fit for application. 
+To switch theme of the page, the user can click on the grey moon icon on the upper right corner located on the header. This icon will toggle between light and dark mode, and swtiches to a white sun on dark mode. The group followed a [guide](https://dev.to/skinnypetethegiraffe/lightdark-mode-toggle-using-mui-and-recoil-ts-3bj0), and did some modifications to make it fit for application. 
 
 ## :wrench: Technical requirements
 
