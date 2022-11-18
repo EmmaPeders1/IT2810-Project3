@@ -7,7 +7,7 @@ const typeDefs = gql`#graphql
         gameId: Int!
         gameName: String
         isFavorited: Boolean
-        publisher: Publisher @relationship(type: "PUBLISHED_BY", direction: OUT)
+        publisher: Publisher @relationship(type: "PUBLISHED_BY", properties: "publishedIn",  direction: OUT)
         platform: Platform @relationship(type: "ON_PLATFORM", direction: OUT)
         genre: Genre @relationship(type: "HAS_GENRE", direction: OUT)
     }
@@ -31,6 +31,10 @@ const typeDefs = gql`#graphql
     type Query{
         getAllGames: [Game]
         getGameByName(gameName: String!): Game
+    }
+
+    interface publishedIn @relationshipProperties {
+        publishedYear: String
     }
 `;
 
